@@ -1,0 +1,30 @@
+{
+  "name": "bot-heroku",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "erlpack": "^0.1.0",
+    "uws": "^8.14.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp-nodemon": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Commantary/Bot-heroku.git"
+  },
+  "author": "Tommy Moreau (Commentary)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Commantary/Bot-heroku/issues"
+  },
+  "homepage": "https://github.com/Commantary/Bot-heroku#readme",
+  "description": "All my Discord.JS bots"
+}
