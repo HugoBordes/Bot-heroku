@@ -3,12 +3,14 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 
 client.on('ready', () => {
-  console.log('I am ready!')
+  console.log('-------------------------------------')
+  console.log('          [!] TEST BOT [!]')
+  console.log('-------------------------------------')
 })
 
 client.on('message', message => {
   if (message.content === 'ping') {
-    message.rchannel.send('pong')
+    message.channel.send('pong')
   }
 })
 // Partie Help
