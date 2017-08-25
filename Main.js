@@ -6,6 +6,7 @@ client.on('ready', () => {
   console.log('-------------------------------------')
   console.log('          [!] TEST BOT [!]')
   console.log('-------------------------------------')
+  client.user.setGame('En dev...')
 })
 
 client.on('message', message => {
