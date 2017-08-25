@@ -6,7 +6,7 @@ client.on('ready', () => {
   console.log('-------------------------------------')
   console.log('          [!] TEST BOT [!]')
   console.log('-------------------------------------')
-  client.user.setGame('En dev...')
+  client.user.setPresence({ game: { name: 'En dev :)', type: 0 } })
 })
 
 client.on('message', message => {
