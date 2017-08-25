@@ -18,4 +18,4 @@ client.on('message', message => {
 const help = require('./module/help.js')
 help(client)
 
-cliEnt.login(process.env.TOKEN)
+client.login(process.env.TOKEN)
