@@ -2,7 +2,9 @@
   "name": "bot-heroku",
   "version": "1.0.0",
   "main": "index.js",
-  "start": "procfile",
+  "scripts": {
+    "start": "node Main.js"
+  },
   "engines": {
     "node": "latest",
     "npm": "latest"
