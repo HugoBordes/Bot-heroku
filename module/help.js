@@ -10,7 +10,7 @@ module.exports = function (client) {
       return message.channel.sendMessage('', {embed: {
         title: 'Commandes:',
         color: 0xff0000,
-        description: ':tools: Liste des commandes :tools: \n\nADMINISTRATIVE \n\n+ban: ban un **membre** du serveur\n\n+kick: expulser un **membre** du serveur\n\n**Les commandes sont en dévelopement...**',
+        description: ':tools: Liste des commandes :tools: \n\nADMINISTRATIVE \n\n**+ban**: ban un ***membre*** du serveur\n\n**+kick**: expulser un ***membre*** du serveur\n\n**Les commandes sont en dévelopement...**',
         footer: {
           text: 'Message par TesteBot.'
         }
