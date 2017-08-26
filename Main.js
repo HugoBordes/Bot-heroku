@@ -18,4 +18,12 @@ client.on('message', message => {
 const help = require('./module/help.js')
 help(client)
 
+// Partie Kick
+const kick = require('./module/kick.js')
+kick(client)
+
+// Partie Ban
+const ban = require('./module/ban.js')
+ban(client)
+
 client.login(process.env.TOKEN)
