@@ -25,7 +25,7 @@ module.exports = function (client) {
           })
       } else {
         // Message de fail
-        message.channel.send('Acces refusé')
+        message.channel.send('Vous n\'avez pas les permissions requises pour cela.')
         console.log(h + ' Tentative de ban par: ' + nom)
       }
     }
