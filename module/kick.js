@@ -19,7 +19,7 @@ module.exports = function (client) {
         member.kick().then((member) => {
           // Message réussis
           message.channel.send(':wave: ' + member.displayName + ' à bien été kick :point_right: ')
-          console.log(h + ' +kick mis par: ' + nom)
+          console.log(nom + ' à kick: ' + member.displayName)
         })
       } else {
         // Message du fail
